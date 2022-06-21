@@ -1,0 +1,32 @@
+{
+	"name": "tgt_asbd_team",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Team_SK",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Team_Id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Team_Name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "team"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

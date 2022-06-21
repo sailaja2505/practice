@@ -1,0 +1,53 @@
+{
+	"name": "src_blob_player",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Player.csv",
+				"container": "container1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "PLAYER_SK",
+				"type": "String"
+			},
+			{
+				"name": "Player_Id",
+				"type": "String"
+			},
+			{
+				"name": "Player_Name",
+				"type": "String"
+			},
+			{
+				"name": "DOB",
+				"type": "String"
+			},
+			{
+				"name": "Batting_hand",
+				"type": "String"
+			},
+			{
+				"name": "Bowling_skill",
+				"type": "String"
+			},
+			{
+				"name": "Country_Name",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

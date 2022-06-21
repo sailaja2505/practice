@@ -1,0 +1,216 @@
+{
+	"name": "target_team",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "tgt1container"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "598028",
+				"type": "String"
+			},
+			{
+				"name": "14",
+				"type": "String"
+			},
+			{
+				"name": "12",
+				"type": "String"
+			},
+			{
+				"name": "13",
+				"type": "String"
+			},
+			{
+				"name": "54",
+				"type": "String"
+			},
+			{
+				"name": "2",
+				"type": "String"
+			},
+			{
+				"name": "56",
+				"type": "String"
+			},
+			{
+				"name": "No Extras",
+				"type": "String"
+			},
+			{
+				"name": "18",
+				"type": "String"
+			},
+			{
+				"name": "09",
+				"type": "String"
+			},
+			{
+				"name": "010",
+				"type": "String"
+			},
+			{
+				"name": "011",
+				"type": "String"
+			},
+			{
+				"name": "012",
+				"type": "String"
+			},
+			{
+				"name": "013",
+				"type": "String"
+			},
+			{
+				"name": "014",
+				"type": "String"
+			},
+			{
+				"name": "015",
+				"type": "String"
+			},
+			{
+				"name": "Not Applicable",
+				"type": "String"
+			},
+			{
+				"name": "FALSE17",
+				"type": "String"
+			},
+			{
+				"name": "FALSE18",
+				"type": "String"
+			},
+			{
+				"name": "FALSE19",
+				"type": "String"
+			},
+			{
+				"name": "FALSE20",
+				"type": "String"
+			},
+			{
+				"name": "FALSE21",
+				"type": "String"
+			},
+			{
+				"name": "FALSE22",
+				"type": "String"
+			},
+			{
+				"name": "FALSE23",
+				"type": "String"
+			},
+			{
+				"name": "FALSE24",
+				"type": "String"
+			},
+			{
+				"name": "FALSE25",
+				"type": "String"
+			},
+			{
+				"name": "FALSE26",
+				"type": "String"
+			},
+			{
+				"name": "4/20/2013",
+				"type": "String"
+			},
+			{
+				"name": "2013",
+				"type": "String"
+			},
+			{
+				"name": "104",
+				"type": "String"
+			},
+			{
+				"name": "6",
+				"type": "String"
+			},
+			{
+				"name": "346",
+				"type": "String"
+			},
+			{
+				"name": "Prop_32",
+				"type": "String"
+			},
+			{
+				"name": "Prop_33",
+				"type": "String"
+			},
+			{
+				"name": "20333",
+				"type": "String"
+			},
+			{
+				"name": "103",
+				"type": "String"
+			},
+			{
+				"name": "20328",
+				"type": "String"
+			},
+			{
+				"name": "537",
+				"type": "String"
+			},
+			{
+				"name": "-138",
+				"type": "String"
+			},
+			{
+				"name": "-139",
+				"type": "String"
+			},
+			{
+				"name": "20348",
+				"type": "String"
+			},
+			{
+				"name": "345",
+				"type": "String"
+			},
+			{
+				"name": "-142",
+				"type": "String"
+			},
+			{
+				"name": "4",
+				"type": "String"
+			},
+			{
+				"name": "144",
+				"type": "String"
+			},
+			{
+				"name": "FALSE45",
+				"type": "String"
+			},
+			{
+				"name": "046",
+				"type": "String"
+			},
+			{
+				"name": "20130420",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

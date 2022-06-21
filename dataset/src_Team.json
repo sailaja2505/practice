@@ -1,0 +1,37 @@
+{
+	"name": "src_Team",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linked_AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Team.csv",
+				"container": "container1"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Team_SK",
+				"type": "String"
+			},
+			{
+				"name": "Team_Id",
+				"type": "String"
+			},
+			{
+				"name": "Team_Name",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

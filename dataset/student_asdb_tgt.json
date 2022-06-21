@@ -1,0 +1,22 @@
+{
+	"name": "student_asdb_tgt",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "stu_name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "student"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

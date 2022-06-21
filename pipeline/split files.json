@@ -1,0 +1,23 @@
+{
+	"name": "split files",
+	"properties": {
+		"activities": [
+			{
+				"name": "pl_split match file based on team",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pl_split match file based on team",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2022-06-15T06:33:15Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

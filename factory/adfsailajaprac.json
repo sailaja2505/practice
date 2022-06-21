@@ -1,0 +1,9 @@
+{
+	"name": "adfsailajaprac",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d21ffe41-1c47-425b-95c6-edafa180cf45",
+		"tenantId": "0695cfa6-ac83-4c6a-9b6e-92e08f8b28be"
+	}
+}

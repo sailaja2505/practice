@@ -1,0 +1,48 @@
+{
+	"name": "tgt_asdb_player",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "PLAYER_SK",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Player_Id",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Player_Name",
+				"type": "varchar"
+			},
+			{
+				"name": "DOB",
+				"type": "date"
+			},
+			{
+				"name": "Batting_hand",
+				"type": "varchar"
+			},
+			{
+				"name": "Bowling_skill",
+				"type": "varchar"
+			},
+			{
+				"name": "Country_Name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "player"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
